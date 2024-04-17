@@ -1,0 +1,12 @@
+useEffect(() => {
+
+  async function fetchPosts() {
+    const res = await fetch('/tasks') 
+    const posts = await res.json()
+
+    // Update component state  
+  }
+
+  fetchPosts()  
+
+}, [])
